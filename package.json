@@ -1,0 +1,25 @@
+{
+  "name": "coding_problems_ts",
+  "version": "1.0.0",
+  "description": "A collection of coding problems",
+  "main": "index.js",
+  "repository": "https://github.com/PaulViola/coding_problems_ts.git",
+  "author": "Paul Viola",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint . --ext .ts",
+    "compile": "tsc",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@types/jest": "^27.5.2",
+    "@types/mocha": "^10.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
+    "eslint": "^7.32.0",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.5",
+    "ts-node": "^10.2.1",
+    "typescript": "^4.3.5"
+  }
+}
